@@ -1,0 +1,20 @@
+# Core dependencies (install PyTorch first with CUDA support)
+# pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+
+# PyTorch Geometric and related
+torch-scatter==2.1.0
+torch-sparse
+torch-geometric==2.1.0
+
+# Configuration and utilities
+tqdm
+pyyaml
+easydict
+
+# Data processing (required by preprocess.py)
+numpy
+pandas
+gensim
+
+# Machine learning utilities
+scikit-learn
