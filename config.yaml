@@ -1,5 +1,5 @@
 data:
-  dir: './data'
+  dir: "./data"
   nfeat: 129
   nlabel: 2
 
@@ -14,13 +14,13 @@ model:
   skip: False
   num_layers: 2
   num_linears: 2
-  output_dir: './out_models/'
+  output_dir: "./out_models/"
 
 train:
-  num_epochs: 15000
-  print_interval: 100
-  time_batch: 16
-  batch: 32
+  num_epochs: 10
+  print_interval: 1
+  time_batch: 4
+  batch: 8
   block_size: 400
   lr: 0.005
   lr_schedule: True
@@ -29,4 +29,3 @@ train:
   eps: 1.0e-5
   unweighted_MSE: True
   grad_norm: 0.1
-

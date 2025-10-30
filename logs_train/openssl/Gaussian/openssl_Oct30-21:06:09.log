@@ -1,0 +1,8 @@
+Oct30-21:06:09
+----------------------------------------------------------------------------------------------------
+[openssl]   seed=42
+----------------------------------------------------------------------------------------------------
+n_feat=129 nlabel=2 diffussion_method=Gaussian diffusion_steps=40 diffusion_s=0.008 | nhid=32 cat=False skip=False num_layers=2 num_linears=2 output_dir=./out_models/ | num_epochs=15000 print_interval=100 time_batch=16 batch=32 block_size=400 | lr=0.005 unweighted_MSE=True  schedule=True weight_decay=0 lr_decay=0.9999999 eps=1e-05 grad_norm=0.1
+nhid=32 layers=2 linears=2
+----------------------------------------------------------------------------------------------------
+001 | 22.66s | train_loss: 0.35793 | train_f1: 0.0001 | valid_f1: 0.0009 | train_r: 0.0001 | valid_r: 0.0005 | train_auc: 0.5 | valid_auc: 0.5 | train_mcc: 0.0 | valid_mcc: 0.0 | train_IOU: 0.0 | valid_IOU: 0.0 
